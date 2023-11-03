@@ -1,0 +1,483 @@
+/* My Colmar Academy Project */
+/* font color: #222d33 */
+/* background color: #f8f9f9 */
+/* accent color: #CD5C5C */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f8f9f9;
+    color: #222d33;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-weight: 200;
+}
+
+
+/* Links CSS */
+a:hover {
+    color: #222d33;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #cd5c5c;
+}
+
+
+/* Navigation CSS */
+nav {
+    box-sizing: border-box;
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: #f8f9f9;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+nav img {
+    vertical-align: middle;
+}
+
+.mobile {
+    display: none; /* removes mobile icons on desktop */
+}
+
+.logo {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1.academy {
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 200;
+}
+
+ul {
+    float: right;
+    text-align: right;
+    display: inline-block;
+    padding: 22px;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    padding-left: 16px;
+}
+
+/* Banner CSS */
+.banner {
+    background-color: #e5d8d8;
+    padding-top: 32px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    color: #222d33;
+}
+
+.banner img {
+    width: 60%;
+    padding: 32px 24px;
+    vertical-align: middle;
+}
+
+.btext {
+    box-sizing: border-box;
+    width: 35%;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+}
+
+#learn {
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    margin: 0;
+}
+
+button {
+    width: 75%;
+    padding: 16px;
+    color: #cd5c5c;
+    background-color: #f8f9f9;
+    border: none;
+    border-radius: 0;
+    margin: 10px auto;
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* Middle Section CSS */
+
+.middle {
+    background-color: #f8f9f9;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    display: flex;
+}
+
+/* Left Side CSS */
+.left {
+    float: left;
+    width: 60%;
+    padding: 32px 24px 32px;
+}
+
+.left img {
+    width: 100%;
+}
+
+/* CSS for h2 Left Side */
+#practice {
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin: 0;
+}
+
+/* Right Side CSS */
+.right {
+    padding: 32px 24px;
+}
+
+.row:hover {
+    background-color: #D0ECE7;
+}
+
+.row img {
+    box-sizing: border-box;
+    width: 35%;
+    vertical-align: middle;
+    height: auto;
+}
+
+.row {
+    padding-bottom: 16px;
+}
+
+.rtext {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    width: 64%;
+}
+
+.rtext h3 {
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+
+.rtext p {
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+/* Start Learning Section CSS */
+.start {
+    background-color: #D0ECE7;
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', Times, serif;
+    padding-top: 32px; 
+    padding-bottom: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
+    box-sizing: border-box;
+    
+ /*   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+*/
+}
+
+.start h2 {
+    text-align: center;
+/*    padding-top: 32px; */
+}
+
+.learn {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 72px;
+    padding-right: 72px;
+    background-color: #D0ECE7;
+}
+
+/* .start .card .img .ctext {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+*/
+
+.card {
+    box-sizing: inline-block;
+    width: 25%;
+    background-color: #f8f9f9;
+    margin: 16px;
+    height: auto;
+/*    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+*/
+    border-radius: 0.5rem;
+    border: 1px solid #f8f9f9;
+    transition-property: all;
+    transition-duration: 0.30s;
+    transition-timing-function: ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.080);
+    background-color: #e5d8d8;
+}
+
+.card img {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+/*    padding-top: 10px; 
+    padding-left: 10px;
+*/
+    border-radius: 0.5rem;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.ctext h3 {
+    padding: 20px;
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.description {
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+
+.courses {
+    text-transform: uppercase;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
+/* Thesis Exhibit CSS includes some of the same CSS as the middle, right, left & row CSS*/
+.thesis h2 {
+    text-align: center;
+    padding-top: 32px;
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', Times, serif;    
+}
+
+#reimagine {
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+
+video {
+    width: 90%;
+    height: 90%;
+}
+
+/* Footer CSS */
+footer {
+    box-sizing: border-box;
+    height: 64px;
+    width: 100%;
+    background-color: #f8f9f9;
+    padding: 32px 24px;
+}
+
+footer p,a {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Media Querries */
+@media only screen and (max-width: 1375px)
+{
+    .banner img {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 800px)
+{ 
+    main {
+        position: absolute;
+        top: 160px;
+    }
+
+    h2 {
+        font-size: 55px;
+        margin-bottom: 48px;
+    }
+
+    p, a {
+        font-size: 42px;
+        margin-bottom: 46px;
+    }
+
+    .banner img {
+        width: 100%;
+        padding: 0px;
+    }
+
+    h1.academy {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        height: 160px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    nav img {
+        vertical-align: middle;
+        display: inline-block;
+        width: 80px;
+        margin: 0 auto;
+    }
+
+    ul {
+        display: none;
+    }
+
+    #learn {
+        font-size: 5em;
+    }
+
+    .btext {
+        box-sizing: border-box;
+        padding: 120px 60px;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        padding: 60px;
+        margin: 10px auto;
+        font-size: 22px;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+        padding-bottom: 60px;
+        padding-top: 0;
+    }
+
+    .row {
+        padding: 0 60px;
+    }
+
+    .row img {
+        display: none;
+    }
+
+    .rtext {
+        width: 100%;
+    }
+
+    .row .mobile {
+        display: block;
+        width: 100%;
+        margin-top: 75px;
+    }
+
+    .start {
+        padding: 0 60px 120px;
+    }
+
+    .start h2 {
+        padding: 40px 0 15px;
+        margin: 0;
+    }
+
+    .card {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 30px 0;
+    }
+
+    .card img {
+        display: none;
+    }
+
+    .ctext {
+        display: none;
+    }
+
+    .ctext h3 {
+        padding: 16px 16px 24px 16px;
+        margin: 0;
+    }
+
+    .courses {
+        display: none;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .thesis {
+        padding: 0;
+    }
+
+    footer {
+        height: 173px;
+        padding: 12px 60px 36px;
+    }
+
+    footer p {
+        margin-top 65px;
+    }
+}
